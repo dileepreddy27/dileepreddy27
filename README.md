@@ -6,8 +6,8 @@
 
 <p align="center">
   <a href="https://dileepreddybattu.com/">Portfolio</a> &nbsp;•&nbsp;
+  <a href="https://dileepreddybattu.com/DileepCV_AZ082026.pdf">Latest Resume</a> &nbsp;•&nbsp;
   <a href="https://www.linkedin.com/in/dileepreddy27">LinkedIn</a> &nbsp;•&nbsp;
-  <a href="https://github.com/dileepreddy27">GitHub</a> &nbsp;•&nbsp;
   <a href="mailto:dileep151015@gmail.com">Email</a>
 </p>
 
@@ -22,6 +22,17 @@ data models, event-driven workflows, automated tests, containers, and CI/CD.
 - 🎓 Pursuing an **M.S. in Data Science and Artificial Intelligence** at Campbellsville University
 - 🎓 **M.S. in Computer Science**, Northern Arizona University
 - 📍 Based in Sanford, Florida
+
+## Recruiter highlights
+
+1. **[Portfolio](https://dileepreddybattu.com/)** — Full-stack engineering work, professional experience, and selected projects.
+2. **[Latest Resume](https://dileepreddybattu.com/DileepCV_AZ082026.pdf)** — Current Full-Stack Software Engineer résumé in PDF format.
+3. **[OrderFlow](https://github.com/dileepreddy27/Orderflow)** — Event-driven order, inventory, and fulfillment platform built with Java 21, Spring Boot, React, PostgreSQL, Redis, and Kafka.
+4. **[CareOps](https://github.com/dileepreddy27/CareOps)** — Provider credentialing, compliance, and coverage platform built with C#, .NET 10, ASP.NET Core, React, PostgreSQL, and SignalR.
+5. **[TelemetryX](https://github.com/dileepreddy27/TelemetryX)** — Bounded telemetry ingestion, sliding-window analytics, and anomaly alerting built with C++20, Drogon, Boost.Asio, PostgreSQL, and React.
+6. **[RAG-Assistant](https://github.com/dileepreddy27/RAG-Assistant)** — Python document Q&A service with FastAPI, LlamaIndex, SentenceTransformers, hybrid pgvector retrieval, reranking, and source-grounded answers.
+7. **[SmartLeads on the portfolio](https://dileepreddybattu.com/#work)** — CRM for lead management, customer interactions, dashboards, and sales-pipeline workflows built with Next.js, React, TypeScript, Node.js, Express, PostgreSQL, and Highcharts.
+8. **[GitHub profile](https://github.com/dileepreddy27)** — Public repositories, source code, documentation, and ongoing engineering work.
 
 ## Core skills
 

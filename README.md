@@ -25,11 +25,47 @@ data models, event-driven workflows, automated tests, containers, and CI/CD.
 
 ## Featured engineering projects
 
-| Project | What it demonstrates | Core stack |
-| --- | --- | --- |
-| [**OrderFlow**](https://github.com/dileepreddy27/Orderflow) | Event-driven commerce operations with transactional inventory, idempotent commands, asynchronous order workflows, and customer and operations interfaces | Java 21 · Spring Boot · React · PostgreSQL · Redis · Kafka |
-| [**CareOps**](https://github.com/dileepreddy27/CareOps) | Provider credentialing, compliance, and coverage workflows with role-aware APIs, background processing, and real-time UI updates | C# · .NET 10 · ASP.NET Core · React · PostgreSQL · SignalR |
-| [**TelemetryX**](https://github.com/dileepreddy27/TelemetryX) | Bounded telemetry ingestion, sliding-window analytics, anomaly alerting, explicit backpressure, and a monitoring console | C++20 · Drogon · Boost.Asio · PostgreSQL · React |
+### 1. [OrderFlow](https://github.com/dileepreddy27/Orderflow)
+
+An event-driven commerce platform for customer ordering, inventory control, fulfillment, and operations.
+
+**How it works:**
+
+1. A customer browses the React storefront and submits an order with an idempotency key.
+2. Spring Boot validates the request and records the order and inventory reservation in PostgreSQL.
+3. A transactional outbox publishes versioned events to Kafka without making Kafka the source of truth.
+4. Inventory, payment simulation, cancellation, and fulfillment workflows consume events and update the order lifecycle.
+5. The operations interface exposes order timelines, inventory alerts, audit history, and failed-event recovery controls.
+
+**Stack:** Java 21 · Spring Boot · React · TypeScript · PostgreSQL · Redis · Kafka · Docker
+
+### 2. [CareOps](https://github.com/dileepreddy27/CareOps)
+
+A healthcare operations platform for provider credentialing, compliance monitoring, and coverage coordination.
+
+**How it works:**
+
+1. Providers and operations users authenticate through role-based ASP.NET Core APIs.
+2. Provider profiles, credential metadata, checklists, comments, and workflow states are stored in PostgreSQL.
+3. Credentialing specialists review submissions, request information, and move providers through guarded approval states.
+4. Background compliance processing monitors expirations and SLA risk while SignalR sends workflow updates to the React interface.
+5. Scheduling, notifications, and audit history give managers a consolidated view of credentialing and coverage activity.
+
+**Stack:** C# · .NET 10 · ASP.NET Core · React · TypeScript · PostgreSQL · SignalR · Docker
+
+### 3. [TelemetryX](https://github.com/dileepreddy27/TelemetryX)
+
+A telemetry ingestion and anomaly-alerting platform with bounded concurrency and an operations dashboard.
+
+**How it works:**
+
+1. Producers submit validated telemetry events to the asynchronous Drogon HTTP API.
+2. Accepted events enter a bounded queue; saturated requests receive an explicit backpressure response.
+3. A fixed Boost.Asio worker pool processes events, updates live aggregates, and persists operational history to PostgreSQL.
+4. Sliding-window metrics evaluate configurable rules and manage alert opening, acknowledgement, and recovery.
+5. The React console displays service health, charts, incidents, alert details, and recent telemetry events.
+
+**Stack:** C++20 · Drogon · Boost.Asio · PostgreSQL · React · TypeScript · Docker
 
 These repositories include architecture and operations documentation, automated tests, containerized
 local environments, and CI workflows. Each README documents the project's scope and known boundaries.
@@ -52,13 +88,75 @@ local environments, and CI workflows. Each README documents the project's scope 
 
 ## More selected projects
 
-| Project | Focus | Stack |
-| --- | --- | --- |
-| [**AIapply.ai**](https://github.com/dileepreddy27/AIapply.ai) | AI-assisted job platform for resume matching, ATS scoring, and application workflows | Python · Next.js · Supabase |
-| [**MLOps-Pipeline**](https://github.com/dileepreddy27/MLOps-Pipeline) | ML lifecycle with training, experiment tracking, routing, and drift monitoring | Python · FastAPI · MLflow · Airflow |
-| [**AI-Powered-Threat**](https://github.com/dileepreddy27/AI-Powered-Threat) | Threat detection using classical anomaly models and a PyTorch autoencoder | FastAPI · PyTorch · Next.js |
-| [**RAG-Assistant**](https://github.com/dileepreddy27/RAG-Assistant) | Document Q&A with hybrid retrieval and source-grounded answers | FastAPI · LangChain · pgvector |
-| [**Jarvis**](https://github.com/dileepreddy27/Jarvis) | Voice-enabled assistant with tool calling, calendar, and web automation | Python · TypeScript · LLMs |
+### 1. [AIapply.ai](https://github.com/dileepreddy27/AIapply.ai)
+
+An AI-assisted job platform for role discovery, resume matching, document tailoring, and application tracking.
+
+**How it works:**
+
+1. A user signs in through Supabase, builds a profile, and uploads a resume.
+2. The platform searches configured job sources and creates a reusable feed of role matches.
+3. A RAG-style retrieval layer compares resume content with job requirements and returns matching results.
+4. The assistant supports resume and cover-letter tailoring, saved application answers, and application status tracking.
+5. Stripe checkout and webhooks manage Basic and Pro feature entitlements.
+
+**Stack:** Python · FastAPI · Next.js · Supabase · Stripe · RAG · Anthropic Claude
+
+### 2. [MLOps-Pipeline](https://github.com/dileepreddy27/MLOps-Pipeline)
+
+An end-to-end machine-learning lifecycle for training, deployment, monitoring, and retraining.
+
+**How it works:**
+
+1. The pipeline ingests data, cleans it, and creates model-ready features.
+2. It trains and tunes candidate models, then evaluates their quality before promotion.
+3. MLflow records experiments, parameters, metrics, artifacts, and model versions.
+4. FastAPI serves predictions and routes live requests between model variants for A/B evaluation.
+5. Feedback and drift monitoring can trigger retraining workflows orchestrated through Airflow and checked in CI.
+
+**Stack:** Python · FastAPI · Scikit-learn · MLflow · Airflow · pytest · GitHub Actions
+
+### 3. [AI-Powered-Threat](https://github.com/dileepreddy27/AI-Powered-Threat)
+
+A threat-detection platform for analyzing web-traffic logs and reviewing anomaly alerts.
+
+**How it works:**
+
+1. Users upload CSV logs or send JSON events through the ingestion API.
+2. The Node.js gateway normalizes each record and forwards it to the FastAPI ML service.
+3. The service engineers behavioral features and scores events with Isolation Forest, One-Class SVM, and a PyTorch autoencoder.
+4. Raw events, detection results, and high-severity alerts are stored in PostgreSQL.
+5. The Next.js dashboard presents detections, alert acknowledgement, timeline trends, and model comparisons.
+
+**Stack:** FastAPI · Scikit-learn · PyTorch · Node.js · Express · Next.js · PostgreSQL · Docker
+
+### 4. [RAG-Assistant](https://github.com/dileepreddy27/RAG-Assistant)
+
+A document question-answering backend that retrieves relevant source material before generating an answer.
+
+**How it works:**
+
+1. A user uploads a PDF, DOCX, TXT, or Markdown document through FastAPI.
+2. LlamaIndex parses and splits the text into searchable chunks.
+3. SentenceTransformers creates embeddings stored with metadata in PostgreSQL and pgvector.
+4. A question triggers hybrid vector and keyword retrieval with optional reranking.
+5. LangChain sends the retrieved context and recent conversation history to the LLM and returns an answer with source references.
+
+**Stack:** Python · FastAPI · LangChain · LlamaIndex · SentenceTransformers · PostgreSQL · Supabase · pgvector
+
+### 5. [Jarvis](https://github.com/dileepreddy27/Jarvis)
+
+A voice-first assistant for conversation, personal productivity, web research, and development tasks.
+
+**How it works:**
+
+1. The browser captures speech and sends the request to the Python assistant backend.
+2. The language model interprets the request and selects an available tool or integration.
+3. Tools can read calendar, email, and notes; browse the web; manage tasks; or start supported development workflows.
+4. Persistent preferences and recent context help the assistant personalize later interactions and daily plans.
+5. The response is spoken back while the Three.js interface renders an audio-reactive visualization.
+
+**Stack:** Python · TypeScript · Web Speech API · WebSockets · Three.js · Anthropic Claude · AppleScript
 
 ---
 

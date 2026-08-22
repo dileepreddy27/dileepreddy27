@@ -39,7 +39,7 @@ by portfolio engineering in Java/Spring Boot, C#/.NET, and modern C++.
 
 **Primary full-stack:** React.js · Next.js · TypeScript · JavaScript · Node.js · Express.js · Python · FastAPI · Flask · REST APIs · PostgreSQL
 
-**Systems portfolio:** Java 21 · Spring Boot · C# · .NET 10 · ASP.NET Core · C++20 · Drogon · Boost.Asio · Kafka · Redis · SignalR
+**Systems portfolio:** Java 21 · Spring Boot · C# · .NET · ASP.NET Core · C++ · Drogon · Boost.Asio · Kafka · Redis · SignalR
 
 **Cloud, data & delivery:** GCP · Cloud Run · BigQuery · Supabase · pgvector · Docker · GitHub Actions · CI/CD · Testing · Monitoring
 

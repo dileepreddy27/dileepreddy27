@@ -21,7 +21,7 @@ data models, event-driven workflows, automated tests, containers, and CI/CD.
 - 💼 Software Engineer at **Vesta Teleradiology**, working on healthcare applications, data services, reporting, and workflow automation
 - 🎓 Pursuing an **M.S. in Data Science and Artificial Intelligence** at Campbellsville University
 - 🎓 **M.S. in Computer Science**, Northern Arizona University
-- 📍 Based in Lake Mary, Florida
+- 📍 Based in Sanford, Florida
 
 ## Featured engineering projects
 

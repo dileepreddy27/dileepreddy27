@@ -36,17 +36,19 @@ local environments, and CI workflows. Each README documents the project's scope 
 
 ## Core skills
 
-**Languages:** Java · C# · C++ · Python · TypeScript · JavaScript · SQL
+**Languages:** Python · JavaScript · TypeScript · Java · C++ · C · SQL · PL/pgSQL
 
-**Frontend:** React · Next.js · TypeScript · Tailwind CSS · Vite
+**Frontend:** React.js · Next.js · HTML5 · CSS3 · Tailwind CSS · DaisyUI · Highcharts · Responsive Web Design
 
-**Backend & APIs:** Spring Boot · ASP.NET Core · Node.js · Express · FastAPI · Flask · Drogon · Boost.Asio · REST · OpenAPI · SignalR
+**Backend & APIs:** Node.js · Express.js · FastAPI · Flask · REST APIs · JSON · API Integration · Microservices · Apache Kafka
 
-**Data & Messaging:** PostgreSQL · Redis · Apache Kafka · BigQuery · MongoDB · Supabase · pgvector
+**Databases & Search:** PostgreSQL · BigQuery · Supabase · pgvector · MySQL · MongoDB · DynamoDB · Snowflake · Relational Data Modeling · NoSQL · Vector Search
 
-**Cloud & Delivery:** GCP · AWS · Azure · Docker · Docker Compose · GitHub Actions · CI/CD · Linux
+**AI/ML & LLM:** LangChain · LlamaIndex · RAG · Agentic Workflows · OpenAI API · SentenceTransformers · Scikit-learn · PyTorch · Neural Networks · MLflow · Airflow · Prompt Engineering · LLM Evaluation · Anomaly Detection
 
-**AI/ML:** LangChain · LlamaIndex · RAG · PyTorch · Scikit-learn · MLflow · Airflow · OpenAI and Gemini APIs
+**Cloud & DevOps:** GCP · Cloud Run · Cloud Scheduler · Cloud Storage · AWS · Azure · Docker · CI/CD · GitHub Actions · Linux · Vercel · Render
+
+**Testing & Tools:** Unit Testing · Integration Testing · API Testing · pytest · Jest · Debugging · Validation · Monitoring · Git · GitHub · GitLab familiarity · Visual Studio Code · Jira · n8n · Agile · SDLC
 
 ## More selected projects
 

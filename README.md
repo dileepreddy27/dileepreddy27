@@ -23,7 +23,23 @@ data models, event-driven workflows, automated tests, containers, and CI/CD.
 - 🎓 **M.S. in Computer Science**, Northern Arizona University
 - 📍 Based in Sanford, Florida
 
-## Featured engineering projects
+## Core skills
+
+**Languages:** Python · JavaScript · TypeScript · Java · C++ · C · SQL · PL/pgSQL
+
+**Frontend:** React.js · Next.js · HTML5 · CSS3 · Tailwind CSS · DaisyUI · Highcharts · Responsive Web Design
+
+**Backend & APIs:** Node.js · Express.js · FastAPI · Flask · REST APIs · JSON · API Integration · Microservices · Apache Kafka
+
+**Databases & Search:** PostgreSQL · BigQuery · Supabase · pgvector · MySQL · MongoDB · DynamoDB · Snowflake · Relational Data Modeling · NoSQL · Vector Search
+
+**AI/ML & LLM:** LangChain · LlamaIndex · RAG · Agentic Workflows · OpenAI API · SentenceTransformers · Scikit-learn · PyTorch · Neural Networks · MLflow · Airflow · Prompt Engineering · LLM Evaluation · Anomaly Detection
+
+**Cloud & DevOps:** GCP · Cloud Run · Cloud Scheduler · Cloud Storage · AWS · Azure · Docker · CI/CD · GitHub Actions · Linux · Vercel · Render
+
+**Testing & Tools:** Unit Testing · Integration Testing · API Testing · pytest · Jest · Debugging · Validation · Monitoring · Git · GitHub · GitLab familiarity · Visual Studio Code · Jira · n8n · Agile · SDLC
+
+## Projects
 
 ### 1. [OrderFlow](https://github.com/dileepreddy27/Orderflow)
 
@@ -70,25 +86,7 @@ A telemetry ingestion and anomaly-alerting platform with bounded concurrency and
 These repositories include architecture and operations documentation, automated tests, containerized
 local environments, and CI workflows. Each README documents the project's scope and known boundaries.
 
-## Core skills
-
-**Languages:** Python · JavaScript · TypeScript · Java · C++ · C · SQL · PL/pgSQL
-
-**Frontend:** React.js · Next.js · HTML5 · CSS3 · Tailwind CSS · DaisyUI · Highcharts · Responsive Web Design
-
-**Backend & APIs:** Node.js · Express.js · FastAPI · Flask · REST APIs · JSON · API Integration · Microservices · Apache Kafka
-
-**Databases & Search:** PostgreSQL · BigQuery · Supabase · pgvector · MySQL · MongoDB · DynamoDB · Snowflake · Relational Data Modeling · NoSQL · Vector Search
-
-**AI/ML & LLM:** LangChain · LlamaIndex · RAG · Agentic Workflows · OpenAI API · SentenceTransformers · Scikit-learn · PyTorch · Neural Networks · MLflow · Airflow · Prompt Engineering · LLM Evaluation · Anomaly Detection
-
-**Cloud & DevOps:** GCP · Cloud Run · Cloud Scheduler · Cloud Storage · AWS · Azure · Docker · CI/CD · GitHub Actions · Linux · Vercel · Render
-
-**Testing & Tools:** Unit Testing · Integration Testing · API Testing · pytest · Jest · Debugging · Validation · Monitoring · Git · GitHub · GitLab familiarity · Visual Studio Code · Jira · n8n · Agile · SDLC
-
-## More selected projects
-
-### 1. [AIapply.ai](https://github.com/dileepreddy27/AIapply.ai)
+### 4. [AIapply.ai](https://github.com/dileepreddy27/AIapply.ai)
 
 An AI-assisted job platform for role discovery, resume matching, document tailoring, and application tracking.
 
@@ -102,7 +100,7 @@ An AI-assisted job platform for role discovery, resume matching, document tailor
 
 **Stack:** Python · FastAPI · Next.js · Supabase · Stripe · RAG · Anthropic Claude
 
-### 2. [MLOps-Pipeline](https://github.com/dileepreddy27/MLOps-Pipeline)
+### 5. [MLOps-Pipeline](https://github.com/dileepreddy27/MLOps-Pipeline)
 
 An end-to-end machine-learning lifecycle for training, deployment, monitoring, and retraining.
 
@@ -116,7 +114,7 @@ An end-to-end machine-learning lifecycle for training, deployment, monitoring, a
 
 **Stack:** Python · FastAPI · Scikit-learn · MLflow · Airflow · pytest · GitHub Actions
 
-### 3. [AI-Powered-Threat](https://github.com/dileepreddy27/AI-Powered-Threat)
+### 6. [AI-Powered-Threat](https://github.com/dileepreddy27/AI-Powered-Threat)
 
 A threat-detection platform for analyzing web-traffic logs and reviewing anomaly alerts.
 
@@ -130,7 +128,7 @@ A threat-detection platform for analyzing web-traffic logs and reviewing anomaly
 
 **Stack:** FastAPI · Scikit-learn · PyTorch · Node.js · Express · Next.js · PostgreSQL · Docker
 
-### 4. [RAG-Assistant](https://github.com/dileepreddy27/RAG-Assistant)
+### 7. [RAG-Assistant](https://github.com/dileepreddy27/RAG-Assistant)
 
 A document question-answering backend that retrieves relevant source material before generating an answer.
 
@@ -144,7 +142,7 @@ A document question-answering backend that retrieves relevant source material be
 
 **Stack:** Python · FastAPI · LangChain · LlamaIndex · SentenceTransformers · PostgreSQL · Supabase · pgvector
 
-### 5. [Jarvis](https://github.com/dileepreddy27/Jarvis)
+### 8. [Jarvis](https://github.com/dileepreddy27/Jarvis)
 
 A voice-first assistant for conversation, personal productivity, web research, and development tasks.
 

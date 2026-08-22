@@ -15,7 +15,7 @@
 
 I am a Full-Stack Software Engineer with 4+ years of experience building web applications,
 backend services, cloud data workflows, and AI-enabled systems across healthcare and business
-domains. I work across the stack—from responsive React interfaces and secure APIs to relational
+domains. I work across the stack from responsive React interfaces and secure APIs to relational
 data models, event-driven workflows, automated tests, containers, and CI/CD.
 
 - 💼 Software Engineer at **Vesta Teleradiology**, working on healthcare applications, data services, reporting, and workflow automation

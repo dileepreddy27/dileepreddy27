@@ -1,111 +1,121 @@
-<h1 align="center">Dileep Reddy Battu</h1>
+<h1 align="center">Hi, I'm Dileep Reddy Battu 👋</h1>
 
 <p align="center">
-  <strong>Full-Stack Software Engineer</strong><br />
-  Web Applications · Backend Systems · Cloud Data · AI/ML Integration
+  <b>Software Engineer</b> · Backend & Full-Stack · Generative AI / MLOps<br>
+  Building reliable, production-grade systems — from event-driven backends to LLM-powered platforms.
 </p>
 
 <p align="center">
-  <a href="https://dileepreddybattu.com/">Portfolio</a> &nbsp;•&nbsp;
-  <a href="https://dileepreddybattu.com/DileepCV_AZ082026.pdf">Resume</a> &nbsp;•&nbsp;
-  <a href="https://www.linkedin.com/in/dileepreddy27">LinkedIn</a> &nbsp;•&nbsp;
-  <a href="mailto:dileep151015@gmail.com">Email</a>
+  <a href="https://dileepreddybattu.com"><img src="https://img.shields.io/badge/Portfolio-1f2937?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio"></a>
+  <a href="https://linkedin.com/in/dileepreddy27"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:dileep151015@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Sanford,%20FL-USA-2ea44f?style=for-the-badge" alt="Location">
 </p>
 
 ---
 
-Full-Stack Software Engineer with 4+ years of experience delivering web applications, backend
-services, cloud data workflows, and AI-enabled systems. At **Vesta Teleradiology**, I work on
-healthcare applications, reporting, data services, and workflow automation. My core professional
-stack includes React, Next.js, TypeScript, Node.js, Python, PostgreSQL, Docker, and GCP, supported
-by portfolio engineering in Java/Spring Boot, C#/.NET, and modern C++.
+### 🚀 About me
 
-- **Current role:** Software Engineer, Vesta Teleradiology
-- **Education:** M.S. Data Science and Artificial Intelligence in progress, Campbellsville University · M.S. Computer Science, Northern Arizona University
-- **Location:** Sanford, Florida
+Software engineer with **4+ years** of experience shipping full-stack applications, backend services, REST APIs, and cloud data workflows — currently building healthcare platforms at **Vesta Teleradiology**, including contributions to an **LLM-powered clinical assistant**. I care about correctness under load: idempotency, transactional integrity, observability, and tests that actually catch regressions.
 
-## Start here
-
-1. **[Portfolio](https://dileepreddybattu.com/)** — Experience, capabilities, and selected work.
-2. **[Latest resume](https://dileepreddybattu.com/DileepCV_AZ082026.pdf)** — Current Full-Stack Software Engineer résumé.
-3. **[OrderFlow](https://github.com/dileepreddy27/Orderflow)** — Java 21/Spring Boot commerce operations with PostgreSQL, Redis, Kafka, and React.
-4. **[CareOps](https://github.com/dileepreddy27/CareOps)** — .NET 10 provider credentialing, compliance, and scheduling with PostgreSQL, SignalR, and React.
-5. **[TelemetryX](https://github.com/dileepreddy27/TelemetryX)** — C++20 telemetry ingestion, sliding-window analytics, anomaly alerts, and a React console.
-6. **[RAG-Assistant](https://github.com/dileepreddy27/RAG-Assistant)** — Python document Q&A with hybrid pgvector retrieval and source-grounded answers.
-7. **[SmartLeads](https://dileepreddybattu.com/#work)** — Full-stack CRM for lead management, customer interactions, dashboards, and sales workflows.
-8. **[GitHub profile](https://github.com/dileepreddy27)** — Public repositories, source code, and engineering documentation.
-
-## Core capabilities
-
-**Primary full-stack:** React.js · Next.js · TypeScript · JavaScript · Node.js · Express.js · Python · FastAPI · Flask · REST APIs · PostgreSQL
-
-**Systems portfolio:** Java 21 · Spring Boot · C# · .NET · ASP.NET Core · C++ · Drogon · Boost.Asio · Kafka · Redis · SignalR
-
-**Cloud, data & delivery:** GCP · Cloud Run · BigQuery · Supabase · pgvector · Docker · GitHub Actions · CI/CD · Testing · Monitoring
-
-**Applied AI/ML:** RAG · LangChain · LlamaIndex · SentenceTransformers · Scikit-learn · PyTorch · MLflow · Airflow · LLM evaluation
-
-<details>
-<summary><strong>Complete technical skills from my resume</strong></summary>
-
-**Languages:** Python · JavaScript · TypeScript · Java · C++ · C · SQL · PL/pgSQL
-
-**Frontend:** React.js · Next.js · HTML5 · CSS3 · Tailwind CSS · DaisyUI · Highcharts · Responsive Web Design
-
-**Backend & APIs:** Node.js · Express.js · FastAPI · Flask · REST APIs · JSON · API Integration · Microservices · Apache Kafka
-
-**Databases & Search:** PostgreSQL · BigQuery · Supabase · pgvector · MySQL · MongoDB · DynamoDB · Snowflake · Relational Data Modeling · NoSQL · Vector Search
-
-**AI/ML & LLM:** LangChain · LlamaIndex · RAG · Agentic Workflows · OpenAI API · SentenceTransformers · Scikit-learn · PyTorch · Neural Networks · MLflow · Airflow · Prompt Engineering · LLM Evaluation · Anomaly Detection
-
-**Cloud & DevOps:** GCP · Cloud Run · Cloud Scheduler · Cloud Storage · AWS · Azure · Docker · CI/CD · GitHub Actions · Linux · Vercel · Render
-
-**Testing & Tools:** Unit Testing · Integration Testing · API Testing · pytest · Jest · Debugging · Validation · Monitoring · Git · GitHub · GitLab familiarity · Visual Studio Code · Jira · n8n · Agile · SDLC
-
-</details>
-
-## Selected engineering work
-
-### [OrderFlow](https://github.com/dileepreddy27/Orderflow)
-
-- **Scope:** Customer ordering, inventory reservation, payment simulation, fulfillment, cancellation, and operations workflows.
-- **Engineering:** Transactional inventory, idempotent commands, a PostgreSQL outbox, Kafka consumer deduplication, Redis caching, audit history, and operator-visible failure handling.
-- **Stack:** Java 21 · Spring Boot · React · TypeScript · PostgreSQL · Redis · Kafka · Docker
-
-### [CareOps](https://github.com/dileepreddy27/CareOps)
-
-- **Scope:** Provider credentialing, compliance monitoring, coverage scheduling, notifications, and audit history.
-- **Engineering:** Guarded workflow transitions, role-based APIs, EF Core persistence, background compliance checks, optimistic concurrency, and SignalR updates.
-- **Stack:** C# · .NET 10 · ASP.NET Core · EF Core · React · TypeScript · PostgreSQL · SignalR · Docker
-
-### [TelemetryX](https://github.com/dileepreddy27/TelemetryX)
-
-- **Scope:** Telemetry ingestion, rolling service metrics, anomaly rules, alert lifecycle management, and operational monitoring.
-- **Engineering:** Asynchronous Drogon APIs, a bounded queue, a fixed Boost.Asio worker pool, explicit backpressure, PostgreSQL history, and a React console.
-- **Stack:** C++20 · Drogon · Boost.Asio · PostgreSQL · React · TypeScript · CMake · Docker
-
-### [RAG-Assistant](https://github.com/dileepreddy27/RAG-Assistant)
-
-- **Scope:** Document ingestion and conversational question answering over PDF, DOCX, TXT, and Markdown sources.
-- **Engineering:** LlamaIndex chunking, SentenceTransformers embeddings, hybrid vector and keyword retrieval, optional reranking, conversation memory, and source references.
-- **Stack:** Python · FastAPI · LangChain · LlamaIndex · SentenceTransformers · PostgreSQL · Supabase · pgvector
-
-### [SmartLeads](https://dileepreddybattu.com/#work)
-
-- **Scope:** Lead profiles, customer interactions, outreach workflows, dashboards, and sales-pipeline tracking.
-- **Engineering:** Responsive interfaces, reusable components, API-driven workflows, relational data modeling, and Highcharts reporting.
-- **Stack:** Next.js · React.js · TypeScript · Node.js · Express.js · PostgreSQL · Highcharts · REST APIs
-
-### Additional projects
-
-- **[AIapply.ai](https://github.com/dileepreddy27/AIapply.ai):** Job discovery, resume matching, document tailoring, application tracking, and subscription entitlements using FastAPI, Next.js, Supabase, Stripe, and RAG.
-- **[MLOps-Pipeline](https://github.com/dileepreddy27/MLOps-Pipeline):** Training, experiment tracking, FastAPI serving, A/B routing, feedback, drift monitoring, and Airflow retraining workflows.
-- **[AI-Powered-Threat](https://github.com/dileepreddy27/AI-Powered-Threat):** Web-log ingestion, anomaly scoring, persisted alerts, and a Next.js monitoring dashboard using FastAPI, Scikit-learn, PyTorch, Node.js, and PostgreSQL.
-- **[Jarvis](https://github.com/dileepreddy27/Jarvis):** Voice-first assistant with productivity integrations, web research, development tools, persistent preferences, and an audio-reactive interface.
+- 🔭 Building event-driven backends (Java/Spring, .NET, C++), full-stack apps (React/Next.js/TypeScript), and applied-AI systems (RAG, MLOps, multi-agent workflows).
+- 🌱 Completing an **M.S. in Data Science & Artificial Intelligence** (May 2027) — targeting **2027 graduate SWE / AI-ML engineering** roles.
+- 🧪 I like turning "seems to work" into **measurable** — metrics, evals, and CI gates.
+- 🧠 Anthropic-certified in AI Fluency, Claude 101 & Claude Platform 101.
 
 ---
 
+### 📈 Impact at a glance
+
+| | |
+|---|---|
+| 🖼️ **20,000+** imaging records processed **daily** on GCP pipelines | ⏱️ **300+ hours** of manual effort saved **monthly** |
+| ⚡ **70%** lower data-retrieval latency via PACS/API integration | 👥 Features serving **300+ providers · 1,200+ facilities** |
+| 🔧 **37%** less workflow overhead on credentialing tools | 🛒 **30%** higher customer engagement (e-commerce platform) |
+
+---
+
+### 🛠️ Tech stack
+
+**Languages**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Frontend**  
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
+
+**Backend**  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![.NET](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+
+**AI / ML**  
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8A2BE2?style=flat-square)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-D4A27F?style=flat-square&logo=anthropic&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG%20%7C%20pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Data & Cloud / DevOps**  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+---
+
+### 🌟 Featured projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[OrderFlow](https://github.com/dileepreddy27/Orderflow)** | Event-driven commerce platform — Spring Boot API + React storefront/ops dashboard, hardened with pessimistic locking, idempotency keys, a transactional outbox, event dedup & bounded retries. | Java 21 · Spring Boot · React · PostgreSQL · Redis · Kafka · Docker |
+| **[CareOps](https://github.com/dileepreddy27/CareOps)** | Healthcare credentialing & coverage platform with guarded workflow transitions, audit history, SLA-prioritized queues, JWT auth & real-time SignalR updates. | C# · ASP.NET Core · EF Core · React · PostgreSQL · SignalR |
+| **[TelemetryX](https://github.com/dileepreddy27/TelemetryX)** | Real-time telemetry ingestion & anomaly platform — async worker pools, MPMC queue, HTTP 429 backpressure, and p50/p95/p99 latency aggregation. | C++20 · Drogon · Boost.Asio · PostgreSQL · React |
+| **[RAG-Assistant](https://github.com/dileepreddy27/RAG-Assistant)** | Source-grounded document Q&A — sentence-aware chunking, hybrid vector + full-text search with cross-encoder reranking over PDF/DOCX/MD. | Python · FastAPI · LangChain · LlamaIndex · pgvector |
+| **[MLOps-Pipeline](https://github.com/dileepreddy27/MLOps-Pipeline)** | End-to-end clinical-classification pipeline — tuning, artifact versioning, A/B model routing, MLflow tracking, PSI drift monitoring & conditional retraining. | Python · scikit-learn · MLflow · FastAPI · Airflow |
+| **[SupportOps-AI](https://github.com/dileepreddy27/SupportOps-AI)** | Multi-agent support ops — triage→specialist workflows, idempotent tools, approval-gated actions, persisted state & audit history. | Python · FastAPI · PostgreSQL · Docker |
+| **[AI-Powered-Threat](https://github.com/dileepreddy27/AI-Powered-Threat)** | Web-traffic anomaly detection with Isolation Forest, One-Class SVM & a PyTorch autoencoder, plus incident-timeline dashboards. | Python · FastAPI · PyTorch · Next.js |
+
+---
+
+### 📊 GitHub stats
+
 <p align="center">
-  <a href="https://dileepreddybattu.com/"><strong>View my portfolio</strong></a> &nbsp;•&nbsp;
-  <a href="https://www.linkedin.com/in/dileepreddy27"><strong>Connect on LinkedIn</strong></a>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=dileepreddy27&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dileepreddy27&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages">
 </p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dileepreddy27&theme=tokyonight&hide_border=true" alt="GitHub streak">
+</p>
+
+---
+
+### 🎓 Education & certifications
+
+- **M.S. Data Science & Artificial Intelligence** — Campbellsville University (2025–2027, GPA 3.6)
+- **M.S. Computer Science** — Northern Arizona University (2023–2024, GPA 3.5)
+- **B.Tech Computer Science & Engineering** — JNTU Hyderabad (2018–2022, GPA 3.5)
+- **Anthropic:** AI Fluency: Framework & Foundations · Claude 101 · Claude Platform 101
+- **Great Learning Academy:** Master Generative AI · Practical SQL Training
+
+---
+
+<p align="center"><i>Open to 2027 new-grad Software Engineering and AI/ML Engineering roles. Let's build something reliable. 🚀</i></p>

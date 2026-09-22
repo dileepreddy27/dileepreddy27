@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Software Engineer</b> · Backend & Full-Stack · Generative AI / MLOps<br>
-  Building reliable, production-grade systems — from event-driven backends to LLM-powered platforms.
+  Building reliable, production-grade systems - from event-driven backends to LLM-powered platforms.
 </p>
 
 <p align="center">
@@ -12,16 +12,16 @@
   <img src="https://img.shields.io/badge/Sanford,%20FL-USA-2ea44f?style=for-the-badge" alt="Location">
 </p>
 
-## 🚀 About me
+### 🚀 About me
 
-Software engineer with **4+ years** of experience shipping full-stack applications, backend services, REST APIs, and cloud data workflows — currently building healthcare platforms at **Vesta Teleradiology**, including contributions to an **LLM-powered clinical assistant**. I care about correctness under load: idempotency, transactional integrity, observability, and tests that actually catch regressions.
+Software engineer with **4+ years** of experience shipping full-stack applications, backend services, REST APIs, and cloud data workflows - currently building healthcare platforms at **Vesta Teleradiology**, including contributions to an **LLM-powered clinical assistant**. I care about correctness under load: idempotency, transactional integrity, observability, and tests that actually catch regressions.
 
 - 🔭 Building event-driven backends (Java/Spring, .NET, C++), full-stack apps (React/Next.js/TypeScript), and applied-AI systems (RAG, MLOps, multi-agent workflows).
-- 🌱 Completing an **M.S. in Data Science & Artificial Intelligence** (May 2027) — targeting **2027 graduate SWE / AI-ML engineering** roles.
-- 🧪 I like turning "seems to work" into **measurable** — metrics, evals, and CI gates.
+- 🌱 Completing an **M.S. in Data Science & Artificial Intelligence** (May 2027) - targeting **2027 graduate SWE / AI-ML engineering** roles.
+- 🧪 I like turning "seems to work" into **measurable** - metrics, evals, and CI gates.
 - 🧠 Anthropic-certified in AI Fluency, Claude 101 & Claude Platform 101.
 
-## 📈 Impact at a glance
+### 📈 Impact at a glance
 
 | | |
 |---|---|
@@ -29,7 +29,7 @@ Software engineer with **4+ years** of experience shipping full-stack applicatio
 | ⚡ **70%** lower data-retrieval latency via PACS/API integration | 👥 Features serving **300+ providers · 1,200+ facilities** |
 | 🔧 **37%** less workflow overhead on credentialing tools | 🛒 **30%** higher customer engagement (e-commerce platform) |
 
-## 🛠️ Tech stack
+### 🛠️ Tech stack
 
 **Languages**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -74,19 +74,19 @@ Software engineer with **4+ years** of experience shipping full-stack applicatio
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-## 🌟 Featured projects
+### 🌟 Featured projects
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[OrderFlow](https://github.com/dileepreddy27/Orderflow)** | Event-driven commerce platform — Spring Boot API + React storefront/ops dashboard, hardened with pessimistic locking, idempotency keys, a transactional outbox, event dedup & bounded retries. | Java 21 · Spring Boot · React · PostgreSQL · Redis · Kafka |
+| **[OrderFlow](https://github.com/dileepreddy27/Orderflow)** | Event-driven commerce platform - Spring Boot API + React storefront/ops dashboard, hardened with pessimistic locking, idempotency keys, a transactional outbox, event dedup & bounded retries. | Java 21 · Spring Boot · React · PostgreSQL · Redis · Kafka |
 | **[CareOps](https://github.com/dileepreddy27/CareOps)** | Healthcare credentialing & coverage platform with guarded workflow transitions, audit history, SLA-prioritized queues, JWT auth & real-time SignalR updates. | C# · ASP.NET Core · EF Core · React · PostgreSQL · SignalR |
-| **[TelemetryX](https://github.com/dileepreddy27/TelemetryX)** | Real-time telemetry ingestion & anomaly platform — async worker pools, MPMC queue, HTTP 429 backpressure, and p50/p95/p99 latency aggregation. | C++20 · Drogon · Boost.Asio · PostgreSQL · React |
-| **[RAG-Assistant](https://github.com/dileepreddy27/RAG-Assistant)** | Source-grounded document Q&A — sentence-aware chunking, hybrid vector + full-text search with cross-encoder reranking over PDF/DOCX/MD. | Python · FastAPI · LangChain · LlamaIndex · pgvector |
-| **[MLOps-Pipeline](https://github.com/dileepreddy27/MLOps-Pipeline)** | End-to-end clinical-classification pipeline — tuning, artifact versioning, A/B model routing, MLflow tracking, PSI drift monitoring & conditional retraining. | Python · scikit-learn · MLflow · FastAPI · Airflow |
-| **[SupportOps-AI](https://github.com/dileepreddy27/SupportOps-AI)** | Multi-agent support ops — triage→specialist workflows, idempotent tools, approval-gated actions, persisted state & audit history. | Python · FastAPI · PostgreSQL · Docker |
+| **[TelemetryX](https://github.com/dileepreddy27/TelemetryX)** | Real-time telemetry ingestion & anomaly platform - async worker pools, MPMC queue, HTTP 429 backpressure, and p50/p95/p99 latency aggregation. | C++20 · Drogon · Boost.Asio · PostgreSQL · React |
+| **[RAG-Assistant](https://github.com/dileepreddy27/RAG-Assistant)** | Source-grounded document Q&A - sentence-aware chunking, hybrid vector + full-text search with cross-encoder reranking over PDF/DOCX/MD. | Python · FastAPI · LangChain · LlamaIndex · pgvector |
+| **[MLOps-Pipeline](https://github.com/dileepreddy27/MLOps-Pipeline)** | End-to-end clinical-classification pipeline - tuning, artifact versioning, A/B model routing, MLflow tracking, PSI drift monitoring & conditional retraining. | Python · scikit-learn · MLflow · FastAPI · Airflow |
+| **[SupportOps-AI](https://github.com/dileepreddy27/SupportOps-AI)** | Multi-agent support ops - triage→specialist workflows, idempotent tools, approval-gated actions, persisted state & audit history. | Python · FastAPI · PostgreSQL · Docker |
 | **[AI-Powered-Threat](https://github.com/dileepreddy27/AI-Powered-Threat)** | Web-traffic anomaly detection with Isolation Forest, One-Class SVM & a PyTorch autoencoder, plus incident-timeline dashboards. | Python · FastAPI · PyTorch · Next.js |
 
-## 📊 GitHub stats
+### 📊 GitHub stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=dileepreddy27&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Dileep's GitHub stats">
@@ -96,11 +96,11 @@ Software engineer with **4+ years** of experience shipping full-stack applicatio
   <img src="https://streak-stats.demolab.com/?user=dileepreddy27&theme=tokyonight&hide_border=true" alt="GitHub streak">
 </p>
 
-## 🎓 Education & certifications
+### 🎓 Education & certifications
 
-- **M.S. Data Science & Artificial Intelligence** — Campbellsville University (2025–2027, GPA 3.6)
-- **M.S. Computer Science** — Northern Arizona University (2023–2024, GPA 3.5)
-- **B.Tech Computer Science & Engineering** — JNTU Hyderabad (2018–2022, GPA 3.5)
+- **M.S. Data Science & Artificial Intelligence** - Campbellsville University (2025-2027, GPA 3.6)
+- **M.S. Computer Science** - Northern Arizona University (2023-2024, GPA 3.5)
+- **B.Tech Computer Science & Engineering** - JNTU Hyderabad (2018-2022, GPA 3.5)
 - **Anthropic:** AI Fluency: Framework & Foundations · Claude 101 · Claude Platform 101
 - **Great Learning Academy:** Master Generative AI · Practical SQL Training
 

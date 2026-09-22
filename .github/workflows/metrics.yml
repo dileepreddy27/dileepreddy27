@@ -1,0 +1,33 @@
+name: Metrics
+on:
+  # Refresh once a day, and let you trigger it manually from the Actions tab.
+  schedule: [{ cron: "0 6 * * *" }]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate github-metrics.svg
+        uses: lowlighter/metrics@latest
+        with:
+          # Uses your METRICS_TOKEN secret when set (recommended: full data + no
+          # rate limits); falls back to the built-in token for public data.
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: dileepreddy27
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/New_York
+
+          # Top languages, weighted by bytes across your repos.
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+
+          # Contribution calendar (the reliable, self-hosted "streak" visual).
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

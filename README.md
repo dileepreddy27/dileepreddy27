@@ -89,12 +89,10 @@ Software engineer with **4+ years** of experience shipping full-stack applicatio
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=dileepreddy27&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Dileep's GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dileepreddy27&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages">
+  <img src="./github-metrics.svg" alt="Dileep's GitHub metrics">
 </p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=dileepreddy27&theme=tokyonight&hide_border=true" alt="GitHub streak">
-</p>
+
+<sub align="center">Generated daily by a GitHub Action (self-hosted — no third-party rate limits).</sub>
 
 ### 🎓 Education & certifications
 

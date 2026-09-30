@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Dileep Reddy Battu 👋</h1>
 
 <p align="center">
-  <b>Software Engineer</b> · Backend & Full-Stack · Generative AI / MLOps<br>
-  Building reliable, production-grade systems - from event-driven backends to LLM-powered platforms.
+  <b>Software Engineer</b> · <b>AI/ML Engineer</b> · LLMs, RAG & AI Agents<br>
+  Building LLM applications, RAG pipelines, and AI agents that are reliable enough for production.
 </p>
 
 <p align="center">
@@ -14,9 +14,10 @@
 
 ### 🚀 About me
 
-Software engineer with **4+ years** of experience shipping full-stack applications, backend services, REST APIs, and cloud data workflows - currently building healthcare platforms at **Vesta Teleradiology**, including contributions to an **LLM-powered clinical assistant**. I care about correctness under load: idempotency, transactional integrity, observability, and tests that actually catch regressions.
+Software engineer with **3+ years** of experience building LLM applications, data pipelines, and backend services - currently at **Vesta Teleradiology**, where I built retrieval and prompt workflows for an **LLM-powered clinical assistant** and GCP data services that process **20K+ imaging records daily**. I care about correctness under load: idempotency, transactional integrity, observability, and tests that actually catch regressions.
 
-- 🔭 Building event-driven backends (Java/Spring, .NET, C++), full-stack apps (React/Next.js/TypeScript), and applied-AI systems (RAG, MLOps, multi-agent workflows).
+- 🔭 Building applied-AI systems (RAG with evaluation, LangGraph agents, MCP tools, PyTorch/MONAI medical imaging) plus the backends behind them (FastAPI, Spring Boot, .NET, C++).
+- 🤖 I build with AI coding agents - **Claude, OpenAI Codex, Cursor, and GitHub Copilot** - and verify every change with tests, evals, and CI.
 - 🌱 Completing an **M.S. in Data Science & Artificial Intelligence** (May 2027) - targeting **2027 graduate SWE / AI-ML engineering** roles.
 - 🧪 I like turning "seems to work" into **measurable** - metrics, evals, and CI gates.
 - 🧠 Anthropic-certified in AI Fluency, Claude 101 & Claude Platform 101.
@@ -78,13 +79,15 @@ Software engineer with **4+ years** of experience shipping full-stack applicatio
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[OrderFlow](https://github.com/dileepreddy27/Orderflow)** | Event-driven commerce platform - Spring Boot API + React storefront/ops dashboard, hardened with pessimistic locking, idempotency keys, a transactional outbox, event dedup & bounded retries. | Java 21 · Spring Boot · React · PostgreSQL · Redis · Kafka |
-| **[CareOps](https://github.com/dileepreddy27/CareOps)** | Healthcare credentialing & coverage platform with guarded workflow transitions, audit history, SLA-prioritized queues, JWT auth & real-time SignalR updates. | C# · ASP.NET Core · EF Core · React · PostgreSQL · SignalR |
-| **[TelemetryX](https://github.com/dileepreddy27/TelemetryX)** | Real-time telemetry ingestion & anomaly platform - async worker pools, MPMC queue, HTTP 429 backpressure, and p50/p95/p99 latency aggregation. | C++20 · Drogon · Boost.Asio · PostgreSQL · React |
-| **[RAG-Assistant](https://github.com/dileepreddy27/RAG-Assistant)** | Source-grounded document Q&A - sentence-aware chunking, hybrid vector + full-text search with cross-encoder reranking over PDF/DOCX/MD. | Python · FastAPI · LangChain · LlamaIndex · pgvector |
-| **[MLOps-Pipeline](https://github.com/dileepreddy27/MLOps-Pipeline)** | End-to-end clinical-classification pipeline - tuning, artifact versioning, A/B model routing, MLflow tracking, PSI drift monitoring & conditional retraining. | Python · scikit-learn · MLflow · FastAPI · Airflow |
-| **[SupportOps-AI](https://github.com/dileepreddy27/SupportOps-AI)** | Multi-agent support ops - triage→specialist workflows, idempotent tools, approval-gated actions, persisted state & audit history. | Python · FastAPI · PostgreSQL · Docker |
-| **[AI-Powered-Threat](https://github.com/dileepreddy27/AI-Powered-Threat)** | Web-traffic anomaly detection with Isolation Forest, One-Class SVM & a PyTorch autoencoder, plus incident-timeline dashboards. | Python · FastAPI · PyTorch · Next.js |
+| **[EvidenceRAG](https://github.com/dileepreddy27/EvidenceRAG)** | Auditable RAG platform - hybrid vector + keyword retrieval, reranking with an evidence threshold, grounded citations, confidence signals, trace IDs, and an offline evaluation runner. Refuses when evidence is weak. | Python · FastAPI · Next.js · PostgreSQL/pgvector · Docker |
+| **[RepoForge](https://github.com/dileepreddy27/repoforge-agent)** | Issue-to-patch coding agent - bounded LangGraph repair loop, AST code context, sandboxed Docker test runs, event ledger, and draft PRs only after tests pass. | Python · LangGraph · OpenAI API · Docker · PostgreSQL |
+| **[MedImage Triage Lab](https://github.com/dileepreddy27/medimage-triage-lab)** | 3D medical image segmentation on synthetic DICOM - custom PyTorch 3D CNN with MONAI Dice+BCE loss, held-out baseline comparison, and an auditable triage queue with model provenance. | Python · PyTorch · MONAI · pydicom · SQLite |
+| **[CodeContext MCP](https://github.com/dileepreddy27/codecontext-mcp)** | Model Context Protocol server giving coding agents cited, budget-limited repo context - Tree-sitter AST chunks, parallel Go workers, LanceDB vector search. | Go · Python · Tree-sitter · LanceDB · MCP |
+| **[CareerMatch Engine](https://github.com/dileepreddy27/careermatch-engine)** | Evidence-linked job matching - verbatim resume excerpts with source offsets, Qdrant vector ranking, and skill-gap review. Never invents claims. | Python · FastAPI · Qdrant · Pydantic · Playwright |
+| **[DocuStruct AI](https://github.com/dileepreddy27/DocuStruct-AI)** | PDF-to-validated-data pipeline - OCR fallback, JSON Schema validation, per-field confidence, and a human-review queue before export. | Python · FastAPI · PostgreSQL · Tesseract · Docker |
+| **[OrderFlow](https://github.com/dileepreddy27/Orderflow)** | Event-driven commerce platform - pessimistic locking, idempotency keys, transactional outbox, event dedup & bounded retries. | Java 21 · Spring Boot · React · PostgreSQL · Redis · Kafka |
+| **[CareOps](https://github.com/dileepreddy27/CareOps)** | Healthcare credentialing & coverage platform - guarded workflow transitions, audit history, SLA queues, JWT auth & real-time SignalR updates. | C# · ASP.NET Core · EF Core · React · PostgreSQL |
+| **[TelemetryX](https://github.com/dileepreddy27/TelemetryX)** | Real-time telemetry ingestion - async worker pools, MPMC queue, HTTP 429 backpressure, and p50/p95/p99 latency aggregation. | C++20 · Drogon · Boost.Asio · PostgreSQL · React |
 
 ### 📊 GitHub stats
 

@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Software Engineer</b> · <b>AI/ML Engineer</b> · LLMs, RAG & AI Agents<br>
-  Building LLM applications, RAG pipelines, and AI agents that are reliable enough for production.
+  Building AI applications, retrieval systems, and the backends behind them.
 </p>
 
 <p align="center">
@@ -12,7 +12,31 @@
   <img src="https://img.shields.io/badge/Sanford,%20FL-USA-2ea44f?style=for-the-badge" alt="Location">
 </p>
 
-### 🚀 About me
+### Selected engineering work
+
+Start with these four projects to explore my work across AI, developer tools, and backend systems.
+
+| Project | Engineering focus | Stack |
+|---|---|---|
+| **[EvidenceRAG](https://github.com/dileepreddy27/EvidenceRAG)** | Auditable RAG platform - hybrid vector + keyword retrieval, reranking with an evidence threshold, grounded citations, confidence signals, trace IDs, and an offline evaluation runner. Refuses when evidence is weak. | Python · FastAPI · Next.js · PostgreSQL/pgvector · Docker |
+| **[RepoForge](https://github.com/dileepreddy27/repoforge-agent)** | Issue-to-patch coding agent - bounded LangGraph repair loop, AST code context, sandboxed Docker test runs, event ledger, and draft PRs only after tests pass. | Python · LangGraph · OpenAI API · Docker · PostgreSQL |
+| **[CodeContext MCP](https://github.com/dileepreddy27/codecontext-mcp)** | Model Context Protocol server giving coding agents cited, budget-limited repo context - Tree-sitter AST chunks, parallel Go workers, LanceDB vector search. | Go · Python · Tree-sitter · LanceDB · MCP |
+| **[OrderFlow](https://github.com/dileepreddy27/Orderflow)** | Event-driven commerce platform - pessimistic locking, idempotency keys, transactional outbox, event dedup & bounded retries. | Java 21 · Spring Boot · React · PostgreSQL · Redis · Kafka |
+
+<details>
+<summary><b>More projects: medical imaging, document AI, matching, healthcare, and C++</b></summary>
+
+| Project | Engineering focus | Stack |
+|---|---|---|
+| **[MedImage Triage Lab](https://github.com/dileepreddy27/medimage-triage-lab)** | 3D medical image segmentation on synthetic DICOM - custom PyTorch 3D CNN with MONAI Dice+BCE loss, held-out baseline comparison, and an auditable triage queue with model provenance. | Python · PyTorch · MONAI · pydicom · SQLite |
+| **[CareerMatch Engine](https://github.com/dileepreddy27/careermatch-engine)** | Evidence-linked job matching - verbatim resume excerpts with source offsets, Qdrant vector ranking, and skill-gap review. Never invents claims. | Python · FastAPI · Qdrant · Pydantic · Playwright |
+| **[DocuStruct AI](https://github.com/dileepreddy27/DocuStruct-AI)** | PDF-to-validated-data pipeline - OCR fallback, JSON Schema validation, per-field confidence, and a human-review queue before export. | Python · FastAPI · PostgreSQL · Tesseract · Docker |
+| **[CareOps](https://github.com/dileepreddy27/CareOps)** | Healthcare credentialing & coverage platform - guarded workflow transitions, audit history, SLA queues, JWT auth & real-time SignalR updates. | C# · ASP.NET Core · EF Core · React · PostgreSQL |
+| **[TelemetryX](https://github.com/dileepreddy27/TelemetryX)** | Real-time telemetry ingestion - async worker pools, MPMC queue, HTTP 429 backpressure, and p50/p95/p99 latency aggregation. | C++20 · Drogon · Boost.Asio · PostgreSQL · React |
+
+</details>
+
+### About me
 
 Software engineer with **3+ years** of experience building LLM applications, data pipelines, and backend services - currently at **Vesta Teleradiology**, where I built retrieval and prompt workflows for an **LLM-powered clinical assistant** and GCP data services that process **20K+ imaging records daily**. I care about correctness under load: idempotency, transactional integrity, observability, and tests that actually catch regressions.
 
@@ -22,7 +46,7 @@ Software engineer with **3+ years** of experience building LLM applications, dat
 - 🧪 I like turning "seems to work" into **measurable** - metrics, evals, and CI gates.
 - 🧠 Anthropic-certified in AI Fluency, Claude 101 & Claude Platform 101.
 
-### 📈 Impact at a glance
+### Experience highlights
 
 | | |
 |---|---|
@@ -30,7 +54,10 @@ Software engineer with **3+ years** of experience building LLM applications, dat
 | ⚡ **70%** lower data-retrieval latency via PACS/API integration | 👥 Features serving **300+ providers · 1,200+ facilities** |
 | 🔧 **37%** less workflow overhead on credentialing tools | 🛒 **30%** higher customer engagement (e-commerce platform) |
 
-### 🛠️ Tech stack
+<details>
+<summary><b>Explore my technology stack</b></summary>
+
+### Tech stack
 
 **Languages**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -75,29 +102,17 @@ Software engineer with **3+ years** of experience building LLM applications, dat
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-### 🌟 Featured projects
+</details>
 
-| Project | What it is | Stack |
-|---|---|---|
-| **[EvidenceRAG](https://github.com/dileepreddy27/EvidenceRAG)** | Auditable RAG platform - hybrid vector + keyword retrieval, reranking with an evidence threshold, grounded citations, confidence signals, trace IDs, and an offline evaluation runner. Refuses when evidence is weak. | Python · FastAPI · Next.js · PostgreSQL/pgvector · Docker |
-| **[RepoForge](https://github.com/dileepreddy27/repoforge-agent)** | Issue-to-patch coding agent - bounded LangGraph repair loop, AST code context, sandboxed Docker test runs, event ledger, and draft PRs only after tests pass. | Python · LangGraph · OpenAI API · Docker · PostgreSQL |
-| **[MedImage Triage Lab](https://github.com/dileepreddy27/medimage-triage-lab)** | 3D medical image segmentation on synthetic DICOM - custom PyTorch 3D CNN with MONAI Dice+BCE loss, held-out baseline comparison, and an auditable triage queue with model provenance. | Python · PyTorch · MONAI · pydicom · SQLite |
-| **[CodeContext MCP](https://github.com/dileepreddy27/codecontext-mcp)** | Model Context Protocol server giving coding agents cited, budget-limited repo context - Tree-sitter AST chunks, parallel Go workers, LanceDB vector search. | Go · Python · Tree-sitter · LanceDB · MCP |
-| **[CareerMatch Engine](https://github.com/dileepreddy27/careermatch-engine)** | Evidence-linked job matching - verbatim resume excerpts with source offsets, Qdrant vector ranking, and skill-gap review. Never invents claims. | Python · FastAPI · Qdrant · Pydantic · Playwright |
-| **[DocuStruct AI](https://github.com/dileepreddy27/DocuStruct-AI)** | PDF-to-validated-data pipeline - OCR fallback, JSON Schema validation, per-field confidence, and a human-review queue before export. | Python · FastAPI · PostgreSQL · Tesseract · Docker |
-| **[OrderFlow](https://github.com/dileepreddy27/Orderflow)** | Event-driven commerce platform - pessimistic locking, idempotency keys, transactional outbox, event dedup & bounded retries. | Java 21 · Spring Boot · React · PostgreSQL · Redis · Kafka |
-| **[CareOps](https://github.com/dileepreddy27/CareOps)** | Healthcare credentialing & coverage platform - guarded workflow transitions, audit history, SLA queues, JWT auth & real-time SignalR updates. | C# · ASP.NET Core · EF Core · React · PostgreSQL |
-| **[TelemetryX](https://github.com/dileepreddy27/TelemetryX)** | Real-time telemetry ingestion - async worker pools, MPMC queue, HTTP 429 backpressure, and p50/p95/p99 latency aggregation. | C++20 · Drogon · Boost.Asio · PostgreSQL · React |
-
-### 📊 GitHub stats
+### GitHub activity
 
 <p align="center">
-  <img src="./github-metrics.svg" alt="Dileep's GitHub metrics">
+  <img src="https://raw.githubusercontent.com/dileepreddy27/dileepreddy27/main/github-metrics.svg" alt="Dileep's GitHub metrics">
 </p>
 
-<sub align="center">Generated daily by a GitHub Action (self-hosted — no third-party rate limits).</sub>
+<sub align="center">Repository-hosted GitHub metrics.</sub>
 
-### 🎓 Education & certifications
+### Education & certifications
 
 - **M.S. Data Science & Artificial Intelligence** - Campbellsville University (2025-2027, GPA 3.6)
 - **M.S. Computer Science** - Northern Arizona University (2023-2024, GPA 3.5)
@@ -106,3 +121,4 @@ Software engineer with **3+ years** of experience building LLM applications, dat
 - **Great Learning Academy:** Master Generative AI · Practical SQL Training
 
 <p align="center"><i>Open to 2027 new-grad Software Engineering and AI/ML Engineering roles. Let's build something reliable. 🚀</i></p>
+
